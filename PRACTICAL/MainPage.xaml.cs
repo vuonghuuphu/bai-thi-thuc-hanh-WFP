@@ -49,6 +49,7 @@ namespace PRACTICAL
                 img = img.Text
             };
             products.AddProduct(p);
+            mainframe.Navigate(typeof(MainPage));
         }
 
     }

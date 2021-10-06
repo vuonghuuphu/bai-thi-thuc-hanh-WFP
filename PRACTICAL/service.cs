@@ -42,9 +42,9 @@ namespace PRACTICAL
                 {
                     Product c = new Product()
                     {
-                        name = (string)statement[0],
-                        img = (string)statement[1],
-                        content = (string)statement[2],
+                        name = (string)statement[1],
+                        img = (string)statement[2],
+                        content = (string)statement[3],
                     };
                     list.Add(c);
                 }
